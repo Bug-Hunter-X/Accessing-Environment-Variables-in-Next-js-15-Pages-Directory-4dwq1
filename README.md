@@ -1,0 +1,3 @@
+# Accessing Environment Variables in Next.js 15 Pages Directory
+
+This repository demonstrates a common issue encountered when upgrading to Next.js 15: accessing environment variables within pages.  Previous versions allowed direct access; Next.js 15 enforces a stricter approach.  The `bug.js` file showcases the error, while `bugSolution.js` provides a corrected solution using the `next/env` package.
